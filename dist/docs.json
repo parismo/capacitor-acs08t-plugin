@@ -1,0 +1,134 @@
+{
+  "api": {
+    "name": "RfidPlugin",
+    "slug": "rfidplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "greenLightOn",
+        "signature": "() => any",
+        "parameters": [],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "greenlighton"
+      },
+      {
+        "name": "greenLightOff",
+        "signature": "() => any",
+        "parameters": [],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "greenlightoff"
+      },
+      {
+        "name": "redLightOn",
+        "signature": "() => any",
+        "parameters": [],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "redlighton"
+      },
+      {
+        "name": "redLightOff",
+        "signature": "() => any",
+        "parameters": [],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "redlightoff"
+      },
+      {
+        "name": "whiteLightOn",
+        "signature": "() => any",
+        "parameters": [],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "whitelighton"
+      },
+      {
+        "name": "whiteLightOff",
+        "signature": "() => any",
+        "parameters": [],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "whitelightoff"
+      },
+      {
+        "name": "turnWiegandOn",
+        "signature": "() => any",
+        "parameters": [],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "turnwiegandon"
+      },
+      {
+        "name": "turnWiegandOff",
+        "signature": "() => any",
+        "parameters": [],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "turnwiegandoff"
+      },
+      {
+        "name": "addListener",
+        "signature": "(eventName: 'onWiegandValue', listenerFunc: WiegandListener) => Promise<PluginListenerHandle> & PluginListenerHandle",
+        "parameters": [
+          {
+            "name": "eventName",
+            "docs": "",
+            "type": "\"onWiegandValue\""
+          },
+          {
+            "name": "listenerFunc",
+            "docs": "",
+            "type": "(event: any) => void"
+          }
+        ],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "WiegandListener",
+          "PluginListenerHandle"
+        ],
+        "slug": "addlistener"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "PluginListenerHandle",
+      "slug": "pluginlistenerhandle",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "remove",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "() => any"
+        }
+      ]
+    }
+  ],
+  "enums": []
+}
